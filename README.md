@@ -44,16 +44,16 @@ La estadística descriptiva es una herramienta fundamental para cualquier cient�
 Clona este repositorio:
 
 ```golpecito
-clon de git https://github.com/luis6villalba/X-TrackOne.git
+clon de git https://github.com/luis6villalba/mate_data_science.git
 ```
 
 - Utilice el comando cd nuevamente para ingresar al directorio del repositorio clonado:
 
 ```golpecito
-cd X-TrackOne
+cd mate_data_science
 ```
 
-- Dependencias de instalación: HTML utiliza únicamente C.SS por el momento, por lo que no es necesario instalar ninguna biblioteca especializada para su uso.
+- Dependencias de instalación: HTML utiliza únicamente CSS por el momento, por lo que no es necesario instalar ninguna biblioteca especializada para su uso.
 
 - Ejecute el proyecto: una vez que haya clonado el repositorio, puede ejecutar el proyecto.
 
