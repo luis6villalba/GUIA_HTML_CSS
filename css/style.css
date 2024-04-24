@@ -8,6 +8,34 @@ body {
     font-family: Open Sans, Helvetica Neue, sans-serif;
 }
 
+/*ejemplo combinador de hermano cercano 'div + p {...}'
+    h2 + p {
+        color: #ede8f3; 
+    }*/
+
+    /*esto quiere decir, aplica este valor de propiedad a todas las etiquetas parrafo que esten cerca de una etiqueta h2*/ 
+
+/*ejemplo combinador de hermano general 'div ~ p {...}'
+    h2 ~ p {
+        color: #ede8f3; 
+    }*/
+
+    /*esto quiere decir, Como hermano general vamos a modificar todas las etiquetas de parrfo que tengan como hermano general un h2*/ 
+
+/*ejemplo combinador hijo directo 'div > p {...}'
+    div > p {
+        color: #ede8f3; 
+    }*/
+
+    /*esto quiere decir, la etiqueta parrafo que sea hija directa de una etiqueta div, agregale el siguiente estilo*/ 
+
+/*ejemplo combinador descendiente 'div p {...}'
+    div p {
+        color: #ede8f3; 
+    }*/
+
+    /*esto quiere decir,Todas los etiquetas parrafo que esten adentro de una etiqueta div aplicale el siguiente estilo*/ 
+
 h1 {
     font-weight: bold;
     text-align: center;
@@ -22,13 +50,17 @@ h1 {
 .title {
     font-size: 35px;
     font-family: Open Sans, Helvetica Neue, sans-serif;
-    color: rgb(250, 76, 76);
+    color: rgb(202, 64, 64);
 }
 
 h3{
-    color: #502020;
-    font-size: 24px;
-    font-weight: bold; 
+    color: #ede8f3;
+    font-weight: normal;
+    font-size: 30px;
+    font-family: Open Sans, Helvetica Neue, sans-serif;
+    margin-bottom: 5px;
+    text-transform: lowercase;
+    line-height: 2; 
 }
 
 p {
@@ -85,6 +117,14 @@ main {
     border: 5px solid rgb(7, 2, 2);
     padding: 20px 35px;
     font-size: 18px;
+}
+
+h2{
+    color: #ede8f3;
+    font-weight: normal;
+    font-size: 35px;
+    font-family: Open Sans, Helvetica Neue, sans-serif;
+    text-transform: normalize;
 }
 
 .content {
