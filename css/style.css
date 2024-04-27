@@ -1,40 +1,37 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     margin: 0;
     padding: 0;
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 62.5% !important;
 }
 
-body {
-    font-family: Open Sans, Helvetica Neue, sans-serif;
+.header {
     font-size: 1.6rem;
-    background-color: black;
-    border: 1rem solid grey;
 }
 
-header {
+.logo {
+    padding-left: 0; 
+}
+
+.section-header {
     text-align: center;
-    padding-left: 2rem;
-    padding-top: 3rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
-}
-
-.page-header {
-    background-color: rgb(3, 3, 94);
+    padding: 0;
+    display: inline-block;
 }
 
 h1 {
+    font-family: Open Sans, Helvetica Neue, sans-serif;
     font-weight: normal;
+    padding-top: 1rem;
     padding-bottom: 2rem;
     text-transform: capitalize;
 }
 
 .titleh1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #ede8f3;
 }
 
@@ -80,9 +77,10 @@ p {
 }
 
 main {
-   width: 105.6vw;
-   height: 500vh;
-   background-color: black;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    font-family: Open Sans, Helvetica Neue, sans-serif;
 }
 
 .sect1-main {
