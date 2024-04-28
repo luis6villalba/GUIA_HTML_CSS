@@ -8,15 +8,24 @@ html {
     font-size: 62.5% !important;
 }
 
-.header {
+body {
+    font-family: Open Sans, Helvetica Neue, sans-serif;
     font-size: 1.6rem;
 }
 
-.logo {
-    padding-left: 0; 
+.header {
+    font-size: 1.6rem;
+    width: 100vw;
+    height: 25vh;
+    background-image: ("./.video/fondo_header.mp4")
 }
 
-.section-header {
+#logo {
+     width: 100px;
+     height: auto;
+}
+
+.div-header {
     text-align: center;
     padding: 0;
     display: inline-block;
