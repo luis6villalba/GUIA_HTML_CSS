@@ -1,147 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="Description" content="proyecto de estadística descriptiva con python para entrenar modelos de machine learning" />
-        <meta name="robots" content="index,follow"/>
-        <title>Estadística Descriptiva con Python</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="./css/style.css"/>
-    </head>
-    <body>
-        <header class="header">
-            <figure>
-                <img id="logo" src="./pics/img/2085580.png" alt="Logo estadistica descriptiva"/>
-                <figcaption>uso libre</figcaption>
-            </figure>
-            <div class="div-header">  
-                <h1 id="page-title" class="titleh1">Proyecto de Estadística Descriptiva con Python</h1>
-            </div>
-            <nav>
-                <ul id="main-nav" class="nav">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="estadistica_descriptiva.html">Estadística Descriptiva</a></li>
-                    <li><a href="estadistica_inferencial.html">Estadística Inferential</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="https://github.com/luisv/mate_data_science">GitHub</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section class="sect1-main">
-                <article class="art-sect1">
-                    <h2 class="titleh2">Estadística Descriptiva</h2>
-                    <p>Bienvenidos al proyecto de estadística descriptiva con Python. Este proyecto está diseñado para ayudar a los estudiantes a entender los conceptos basicos de la estadística descriptiva y cómo se pueden aplicar en Python para el modelado de Machine Learning.</p>
-                    <p>La estadística descriptiva se ocupa de recolectar, organizar, resumir y presentar datos de manera informativa. Su objetivo principal es describir las características principales de un conjunto de datos de manera cuantitativa. Por ejemplo, si tienes los datos de las calificaciones de un grupo de estudiantes, la estadística descriptiva te permitirá calcular la media, la mediana, la moda, el rango, la varianza, la desviación estándar, etc. Estos son todos ejemplos de medidas descriptivas que te dan una idea de la distribución de las calificaciones.</p>
-                </article>
-                <figure>
-                    <img src="./pics/img/clay-optimizada.webp" alt="Mapa plano del mundo con grafico de disperción" />
-                    <figcaption>Foto de <a href="https://unsplash.com/es/@claybanks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clay Banks</a> en <a href="https://unsplash.com/es/fotos/monitor-de-computadora-de-pantalla-plana-negro-_Jb1TF3kvsA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-                    </figcaption>
-                </figure>
-            </section>
-            <section>
-                <figure>
-                    <img src="./pics/img/mike-optimizada.webp" alt="Grafico de barras en una tablet" />
-                    <figcaption>Foto de <a href="https://unsplash.com/es/@mike_cho?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mike Cho</a> en <a href="https://unsplash.com/es/fotos/una-tableta-sentada-encima-de-una-cama-p5gRFhkcva0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-                    </figcaption>
-                </figure>
-            </section>
-            <section>
-                <article>
-                    <h3>Contenido del Proyecto</h3>
-                    <ul>
-                        <li>Recolección de datos</li>
-                        <li>Análisis exploratório de datos (EDA)</li>
-                        <li>Reprocesamiento de datos</li>
-                        <li>Descripción de los datos</li>
-                        <li>Visualización de datos</li>
-                        <li>Interpretación de los resultados</li>
-                        <li>Preparación para el modelado ML</li>
-                    </ul>
-                </article>
-            </section>
-            <section>
-                <h3>
-                    <p>Visualizacion de datos de forma interactiva </p>
-                </h3>
-            </section>
-            <section>
-                <video controls preload="auto">
-                    <source src="./pics/img/video-optimizado.mp4" type="video/mp4">
-                    <source src="./pics/img/video-optimizado.webm" type="video/webm">
-                    <source src="./pics/img/video-optimizado.ogv" type="video/ogg">
-                </video>
-            </section>
-            <h3>
-                <p>Datos Personales</p>
-            </h3>
-            <form action="">
-                <input type="text" placeholder="Introduce tu nombre" required/>
-                <input type="text" placeholder="Correo Electronico" required/>
-                <input type="number" placeholder="Numero de Celular" required/>
-                <input type="reset" value="Borrar" />
-                <input type="submit" value="Enviar" />
-            </form>
-            <h3>
-                <p>Programa tu proxima clase aqui</p>
-            </h3>
-            <form action="">
-                <label for="Calendario">
-                    <input type="datetime-local" id="Calendario" name="Calendario" required/>
-                </label>
-                <input type="submit" />
-            </form>
-            <h3>
-                <p>Datos del remitente </p>
-            </h3> 
-            <form action="">
-                <label for="nombre">
-                    <input type="text" placeholder="Nombre y Apellido" id="nombre" name="nombre" autocomplete="name" required/>
-                </label>
-                <label for="correo">
-                    <input type="text" placeholder="Correo Electronico" id="correo" name="correo" autocomplete="email" required/>
-                </label>
-                <label for="pais">
-                    <input type="text" placeholder="¿En que pais vives?" id="pais" name="pais" autocomplete="country" required/>
-                </label>
-                <label for="cp">
-                    <input type="text" placeholder="¿Cual es tu codigo postal?" id="cp" name="cp" autocomplete="postal-code" required/>
-                </label>
-                <input type="submit" />
-            </form>
-            <ol></ol>
-            <form action="">
-                <label for="color">
-                    <span>¿Cual es tu color favorito?</span>
-                    <input list="colores" id="color" name="color" required/>               
-                    <datalist id="colores">
-                        <option value="blanco"></option>
-                        <option value="rojo"></option>
-                        <option value="amarillo"></option>
-                        <option value="azul"></option>
-                        <option value="verde"></option>
-                        <option value="gris"></option>          
-                    </datalist>
-                </label>
-                <input type="submit" />
-                <button type="submit">Inicio</button>
-            </form>
-            <section>
-                <h3>Tecnologías Utilizadas</h2>
-                    <ul>
-                        <li>Python</li>
-                        <li>Numpy</li>
-                        <li>Matplotlib</li>
-                        <li>Pandas</li>
-                        <li>Seaborn</li>
-                        <li>Sklearn</li>
-                        <li>Timeit</li>
-                    </ul>
-            </section>                   
-        </main>
-        <footer>
-        </footer>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="proyecto de estadística descriptiva con python para entrenar modelos de machine learning" />
+    <meta name="robots" content="index,follow"/>
+    <title>Estadística Descriptiva con Python</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+
+<body>
+    <header>
+        <figure class="figure-header">
+            <img id="logo" src="./pics/img/2085580.png" alt="Logo estadistica descriptiva"/>
+        </figure>
+        <nav class="nav-header">
+            <ul id="main-nav" class="nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="estadistica_descriptiva.html">Estadística Descriptiva</a></li>
+                <li><a href="estadistica_inferencial.html">Estadística Inferential</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="https://github.com/luisv/mate_data_science">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <div class="box">Elemento 1</div>
+            <div class="box">Elemento 2</div>
+            <div class="box">Elemento 3</div>
+            <div class="box">Elemento 4</div>
+        </aside>
+        <section>
+            <video autoplay loop muted preload="auto" class="bg-video">
+                <source src="./.video/fondo_header.mp4" type="video/mp4">
+                <source src="./.video/fondo_header.webm" type="video/webm">
+                <source src="./.video/fondo_header.ogv" type="video/ogg">
+            </video>
+        </section>               
+    </main>
+    <footer class="footer">
+        <div class="footer-social">Redes Sociales</div>
+        <div class="footer-info">Información</div>
+    </footer>
+</body>
 </html>
 

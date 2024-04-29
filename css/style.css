@@ -1,54 +1,56 @@
 * {
-    box-sizing: border-box !important;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Open Sans, Helvetica Neue, sans-serif;
 }
 
 html {
-    font-size: 62.5% !important;
+    font-size: 62.5%;
 }
 
 body {
-    font-family: Open Sans, Helvetica Neue, sans-serif;
     font-size: 1.6rem;
+}
+
+body, html {
+    height: 100%;
+}
+
+header {
+    height: 10vh;
+    background-color: black;
+}
+
+main {
+    height: 80vh;
+}
+
+footer {
+    height: 10vh;
+    background-color: darkorange;
+  }
+
+.figure-header, .nav-header {
+    display: inline-block;
+}
+
+.figure-header {
+    margin: 1.6rem;
+}
+
+.nav-header {
+    position: absolute;
+    right: 1.5rem;
 }
 
 .header {
     font-size: 1.6rem;
-    width: 100vw;
-    height: 25vh;
-    background-image: ("./.video/fondo_header.mp4")
 }
 
 #logo {
-     width: 100px;
-     height: auto;
-}
-
-.div-header {
-    text-align: center;
-    padding: 0;
-    display: inline-block;
-}
-
-h1 {
-    font-family: Open Sans, Helvetica Neue, sans-serif;
-    font-weight: normal;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    text-transform: capitalize;
-}
-
-.titleh1 {
-    font-size: 3rem;
-    color: #ede8f3;
-}
-
-p {
-    line-height: 1.3;
-    text-align: left;
-    margin-top: 1rem;
-    padding-bottom: 2rem;
+    width: 100px;
+    height: auto;
 }
 
 .nav {
@@ -60,6 +62,7 @@ p {
 
 .nav li {
     display: inline-block;
+    margin: 1rem;
 }
 
 .nav a {
@@ -85,42 +88,48 @@ p {
     content: " | ";
 }
 
-main {
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-    font-family: Open Sans, Helvetica Neue, sans-serif;
+aside, section {
+    display: inline-block;
+    height: 80vh;
 }
 
-.sect1-main {
-    text-align: center;
-    padding-left: 2rem;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+aside {
+    width: 20vw;
+    background-color: darkblue;
 }
 
-h2 {
-    font-weight: normal;
-    padding-bottom: 2rem;
-    text-transform: capitalize;
+aside .box {
+    height: 15vh;
+    margin: 3vh;
+    background-color: white;
 }
 
-.titleh2 {
-    font-size: 3rem;
-    color: #ede8f3;
+section {
+    position: absolute;
+    left: 20vw;
+    width: 80vw;
+    padding: 1rem;
+    text-align: left;
 }
 
-h3{
-    color: #ede8f3;
-    font-weight: normal;
-    font-size: 3rem;
-    font-family: Open Sans, Helvetica Neue, sans-serif;
-    margin-bottom: 0.5rem;
-    text-transform: capitalize;
-    line-height: 2; 
+.bg-video !important{
+    scaled: 20% !important;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 10%;
+    min-height: 10%;
+    max-width: 80%;
+    max-height: 80%;
+    z-index: -1;
 }
 
-.content {
-    margin: 0 auto;
-    width: 80%;
+.footer-social, .footer-info {
+    display: inline-block;
+    margin: 1rem;
+}
+  
+.footer-info {
+    position: absolute;
+    right: 1.5rem;
 }
