@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Open Sans, Helvetica Neue, sans-serif;
 }
 
 html {
@@ -11,15 +10,12 @@ html {
 
 body {
     font-size: 1.6rem;
-}
-
-body, html {
-    height: 100%;
+    font-family: Open Sans, Helvetica Neue, sans-serif;
 }
 
 header {
     height: 10vh;
-    background-color: black;
+    background-color: rgb(134, 2, 2);
 }
 
 main {
@@ -28,15 +24,21 @@ main {
 
 footer {
     height: 10vh;
-    background-color: darkorange;
+    background-color: black;
   }
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .figure-header, .nav-header {
     display: inline-block;
 }
 
 .figure-header {
-    margin: 1.6rem;
+    margin: 1.2rem;
+    left: 1rem;
 }
 
 .nav-header {
@@ -44,48 +46,49 @@ footer {
     right: 1.5rem;
 }
 
-.header {
-    font-size: 1.6rem;
-}
-
 #logo {
     width: 100px;
     height: auto;
 }
 
-.nav {
+.nav-header {
     margin-top: 2rem;
     margin-bottom: 2rem;
     list-style-type: none;
     padding-left: 0;
 }
 
-.nav li {
+.cont-ul-header li {
     display: inline-block;
     margin: 1rem;
 }
 
-.nav a {
+.cont-ul-header a {
     color: whitesmoke;
-    background-color: #13a4a4;
+    background-color: rgb(192, 125, 0);
     font-size: 1.6rem;
     padding: 1rem 1.2rem;
     border-radius: 0.4rem; 
     text-decoration: none;
 }
 
-.nav a:hover {
+.cont-ul-header a:hover {
     color:rgb(207, 230, 78);
     background-color: rgb(72, 19, 122);
 }
 
-.nav a:active {
+.cont-ul-header a:active {
     color: #7a0909;
     background-color: rgb(137, 57, 212);
 }
 
-.nav a::after {
+.cont-ul-header a::after {
     content: " | ";
+}
+
+.cont-main {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 aside, section {
@@ -95,13 +98,14 @@ aside, section {
 
 aside {
     width: 20vw;
-    background-color: darkblue;
+    background-color: rgb(94, 93, 93);
+    color: white;
 }
 
 aside .box {
-    height: 15vh;
-    margin: 3vh;
-    background-color: white;
+    height: 12vh;
+    margin: 1.5vh;
+    background-color: black;
 }
 
 section {
@@ -110,10 +114,10 @@ section {
     width: 80vw;
     padding: 1rem;
     text-align: left;
+    color: black;
 }
 
-.bg-video !important{
-    scaled: 20% !important;
+.bg-video {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -122,6 +126,11 @@ section {
     max-width: 80%;
     max-height: 80%;
     z-index: -1;
+}
+
+.cont-footer {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .footer-social, .footer-info {
