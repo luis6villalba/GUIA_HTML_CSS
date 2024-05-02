@@ -6,11 +6,12 @@
 
 html {
     font-size: 62.5%;
+    font-family: Open Sans, Helvetica Neue, sans-serif;
 }
 
 body {
     font-size: 1.6rem;
-    font-family: Open Sans, Helvetica Neue, sans-serif;
+    
 }
 
 header {
@@ -87,6 +88,7 @@ footer {
 }
 
 .cont-main {
+    width: 20vh;
     display: flex;
     flex-wrap: wrap;
 }
@@ -97,13 +99,16 @@ aside, section {
 }
 
 aside {
-    width: 20vw;
+    display: flex;
+    flex-wrap: wrap;
     background-color: rgb(94, 93, 93);
     color: white;
 }
 
 aside .box {
-    height: 12vh;
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
     margin: 1.5vh;
     background-color: black;
 }
