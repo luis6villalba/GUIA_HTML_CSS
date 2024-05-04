@@ -1,9 +1,12 @@
-.c2, .c3
-{
-    width: 50%;
-}
-
-.c4
-{
-    height: calc(60vh - 5rem);
-}
+.header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logo {
+    margin-bottom: 0;
+  }
+  .content p {
+    width: 100%;
+    max-width: 530px;
+    margin: 0 auto;
+  }

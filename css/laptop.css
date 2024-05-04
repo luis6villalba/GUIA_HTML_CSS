@@ -1,26 +1,7 @@
-.c1, .c2
-{
-    height: calc((100vh/3) - 4rem);
-}
-
-.c1
-{
-    width: 40%;
-}
-
-.c2
-{
-    width: 60%;
-}
-
-.c3, .c4, .c5
-{
-    width: calc(100%/3);
-    height: calc((100vh/3) - 4rem);
-}
-
-.c6
-{
-    width: 100%;
-    height: calc((100vh/3) - 4rem);
-} 
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .routes-images {
+    width: 300px;
+  }
