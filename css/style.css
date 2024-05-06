@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,23 +12,65 @@ html {
 }
 
 body {
+    overflow-x: hidden;
     font-family: Open Sans, Helvetica Neue, sans-serif;
     font-size: 1.6rem;
 }
 
 .header {
+    width: 100vw;
+    height: auto;
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    border: 1px solid steelblue;
     align-items: center;
+    border: 1px solid steelblue;
 }
 
-.logo {
+.logo img {
+    width: 150px;
+}
+
+.menu {
     display: flex;
+    list-style: none;
+}
+
+.navbar {
+    margin-bottom: 10px
+}
+
+.item-list {
+    margin: 0 2px;
+    padding: 2px;
+    font-size: 1.6rem;
+    font-weight: 300px;
+    letter-spacing: 0.5px;
+    font-family: Open Sans, Helvetica Neue, sans-serif;
+    text-align: center;
+}
+
+.main {
+    width: 100vw;
+    height: auto;
+}
+
+.section-one {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background: PAPAYAWHIP;
+    /*padding: 20px 10px;
+    border: 1px solid greenyellow;
+    */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
-    order: 2
+    justify-content: space-between;
 }
 
 #tittle {
@@ -33,39 +78,6 @@ body {
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    order: 1
-}
-
-.navbar {
-    order: 3
-}
-
-.menu {
-    display: flex;
-    flex-wrap: wrap;
-    margin:auto;
-    list-style: none;
-}
-
-.menu li {
-    margin: 0 5px;
-}
-
-.menu li a {
-    font-weight: 400;
-    text-decoration: none;
-}
-
-.content {
-    width: 100%;
-    max-width: 800px;
-    padding: 20px 10px;
-    border: 1px solid greenyellow;
-    text-align: center;
-}
-
-.h1 {
-    margin-bottom: 1.6rem;
 }
 
 .texto {
@@ -73,13 +85,7 @@ body {
     margin-bottom: 1.6rem;
 }
 
-.clay {
-    width: 100%;
-    max-width: 300px;
-    margin: 0 auto 15px;
-}
-
-.clay img {
+.content-ilustration img {
     width: 100%;
 }
 
