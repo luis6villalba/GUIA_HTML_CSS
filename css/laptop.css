@@ -1,7 +1,63 @@
-.main {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  .routes-images {
-    width: 300px;
-  }
+.contenido-proyecto h2 {
+  font-size: 5.8rem;
+}
+
+.section-two {
+  padding: 5%;
+}
+
+.glosario {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.glosario .titulo-tema {
+  font-size: 2.2rem;  
+}
+
+.glosario .titulo-tema-descripcion {
+  font-size: 1.4rem;  
+}
+
+.imagen-tema img {
+  max-width: 150px;
+  padding: 20px 0;
+}
+
+/*reposicionar el header */
+
+.header {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar {
+  margin-right: 40px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.section-one .content-wrapper {
+  width: 50%;  
+}
+
+.content-ilustration {
+  display: flex;
+  justify-content: center;
+}
+
+.content-illustration img {
+  width: 80%;
+}
+
+.content-wrapper .tittle {
+  font-size: 3.8rem;  
+}
+
+.content-wrapper .texto {
+  width: 80%;
+  font-size: 1.8rem;
+}
