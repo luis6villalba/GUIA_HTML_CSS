@@ -1,9 +1,9 @@
 .contenido-proyecto h2 {
-  font-size: 5.8rem;
+  font-size: 3rem;
 }
 
 .section-two {
-  padding: 5%;
+  padding: 2%;
 }
 
 .glosario {
@@ -13,51 +13,35 @@
 }
 
 .glosario .titulo-tema {
-  font-size: 2.2rem;  
+  font-size: 1.8rem;  
 }
 
 .glosario .titulo-tema-descripcion {
-  font-size: 1.4rem;  
+  font-size: 1.6rem;  
 }
 
 .imagen-tema img {
-  max-width: 150px;
+  max-width: 350px;
   padding: 20px 0;
+  padding-bottom: 0.5px;
 }
 
+.figcaption {
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+  
 /*reposicionar el header */
 
-.header {
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.navbar {
-  margin-right: 40px;
-}
-
 .logo img {
-  width: 100px;
-}
-
-.section-one .content-wrapper {
-  width: 50%;  
-}
-
-.content-ilustration {
-  display: flex;
-  justify-content: center;
-}
-
-.content-illustration img {
-  width: 80%;
-}
-
-.content-wrapper .tittle {
-  font-size: 3.8rem;  
+  width: 150px;
 }
 
 .content-wrapper .texto {
   width: 80%;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+}
+
+.content-wrapper .tittle {
+  font-size: 3rem;
 }

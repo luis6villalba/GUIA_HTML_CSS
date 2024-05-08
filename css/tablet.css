@@ -1,5 +1,5 @@
 .contenido-proyecto h2 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .glosario .titulo-tema {
@@ -7,7 +7,7 @@
 }
 
 .glosario .titulo-tema-descripcion {
-  font-size: 1.2rem;  
+  font-size: 1.6rem;  
 }
 
 .contenido-temas {
@@ -32,3 +32,38 @@
   padding: 20px;
   padding-bottom: 0.7px;
 }
+
+.header {
+  flex-direction: row;
+  height: 50%;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.item-list {
+  font-size: 2rem;
+}
+
+.section-one {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(81 79 197 / 79%);
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-wrapper .tittle {
+  font-size: 2.8rem;
+}
+
+
