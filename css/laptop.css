@@ -44,4 +44,12 @@
 
 .content-wrapper .tittle {
   font-size: 3rem;
+  padding-top: 30px;
+}
+
+.bg-video {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  padding: 5px 5px 20px;
 }

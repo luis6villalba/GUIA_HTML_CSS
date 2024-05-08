@@ -84,11 +84,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-family: 'Merriweather', serif;
-    margin-bottom: 20px;
+    margin-bottom: auto;
 }
 
-.content-ilustration img {
-    width: 70%;
+.bg-video {
+    width: 100%;
+    min-width: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .section-two {
@@ -100,7 +103,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: url()
+    background: rgb(72, 126, 206)
 }
 
 .contenido-temas {
