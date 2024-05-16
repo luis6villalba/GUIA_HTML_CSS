@@ -1,6 +1,6 @@
 # Guia HTML y CSS
 <!-- markdownlint-disable MD001 MD005 MD025 MD029 MD045 MD033-->
-!(<img src="./pics/img/img_html_y_css.jpg" alt="foto de un ordenador con teclado y raton"/>)
+!<img src="./pics/img/img_html_y_css.jpg" alt="foto de un ordenador con teclado y raton"/>
 
 Este repositorio se enfoca en la semántica que se debe aplicar al crear proyectos utilizando etiquetas de HTML y CSS. De esta manera, lograremos dar mejores estilos a los elementos que conforman nuestro sitio web, haciéndolos más eficientes y accesibles.
 
