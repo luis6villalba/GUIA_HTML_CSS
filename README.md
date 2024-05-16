@@ -3,25 +3,27 @@
 <!-- markdownlint-disable MD001 MD005 MD025 MD029 MD045-->
 ![](<img src="https://unsplash.com/es/fotos/un-ordenador-con-teclado-y-raton-yGQmjh2uOTg"/>)
 
-La estadística descriptiva es una herramienta fundamental para cualquier científico de datos. En este repositorio, desarrollaremos un pequeño proyecto que te permitirá entender los conceptos principales de esta disciplina. Crearemos gráficas a partir de datos y aplicaremos estadística descriptiva para realizar un análisis exhaustivo.
+Este repositorio se enfoca en la semántica que se debe aplicar al crear proyectos utilizando etiquetas de HTML y CSS. De esta manera, lograremos dar mejores estilos a los elementos que conforman nuestro sitio web, haciéndolos más eficientes y accesibles.
 
 ## Caracteristicas
 
 ------
 
-1. Recolección de datos
+1. Semántica de las etiquetas de HTML.
 
-2. Análisis exploratorio de datos (EDA)
+2. Bloque de encabezado profesional y construccion de bloques para CSS.
 
-3. Preprocesamiento de datos
+3. Como dar estilos a los elementos de tu sitio web.
 
-4. Descripción de los datos
+4. Medidas EM/REM.
 
-5. Visualización de datos
+5. Modelos de caja.
 
-6. Interpretación de los resultados
+6. Selectores y combinadores.
 
-7. Preparación para el modelado ML
+7. Responsive Design.
+
+8. Accesibilidad.
 
 ------
 
