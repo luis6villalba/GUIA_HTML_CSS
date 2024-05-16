@@ -1,6 +1,7 @@
-![](https://estadistica2015et.weebly.com/uploads/5/2/9/7/52975741/2085580.png?313)
+# Guia HTML y CSS
 
-# Estadística Descriptiva
+<!-- markdownlint-disable MD001 MD005 MD025 MD029 MD045-->
+![](<img src="https://unsplash.com/es/fotos/un-ordenador-con-teclado-y-raton-yGQmjh2uOTg"/>)
 
 La estadística descriptiva es una herramienta fundamental para cualquier científico de datos. En este repositorio, desarrollaremos un pequeño proyecto que te permitirá entender los conceptos principales de esta disciplina. Crearemos gráficas a partir de datos y aplicaremos estadística descriptiva para realizar un análisis exhaustivo.
 
@@ -92,7 +93,7 @@ Un agradecimiento especial a ## Platzi.
 
 ## Autor
 
-Luis Alejando Villalba Díaz - luisvillalbaa.12@gmail.com
+Luis Alejando Villalba Díaz - <luisvillalbaa.12@gmail.com>
 
 ¡Gracias por tu interés en este proyecto! Si tiene alguna pregunta o sugerencia, no dude en ponerse en contacto conmigo.
 
