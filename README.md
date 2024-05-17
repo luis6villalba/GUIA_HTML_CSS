@@ -30,29 +30,24 @@ Este repositorio se enfoca en la semántica que se debe aplicar al crear proyect
 
 ------
 
-### Python
+### HTML
 
-- numpy
-- matplotlib
-- matplotlib.pyplot
-- Pandas
-- Seaborn
-- sklearn
-- sklearn.preprocessing
-- timeit
+### CSS
+
+________________________________________________________
 
 ## Instalación y uso
 
 Clona este repositorio:
 
 ```golpecito
-clon de git https://github.com/luis6villalba/mate_data_science.git
+clon de git https://github.com/luis6villalba/GUIA_HTML_CSS.git
 ```
 
 - Utilice el comando cd nuevamente para ingresar al directorio del repositorio clonado:
 
 ```golpecito
-cd mate_data_science
+cd GUIA_HTML_CSS 
 ```
 
 - Dependencias de instalación: HTML utiliza únicamente CSS por el momento, por lo que no es necesario instalar ninguna biblioteca especializada para su uso.
