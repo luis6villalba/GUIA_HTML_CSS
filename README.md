@@ -30,11 +30,11 @@ Este repositorio se enfoca en la semántica que se debe aplicar al crear proyect
 
 ------
 
-### HTML
+#### HTML
 
-### CSS
+#### CSS
 
-________________________________________________________
+------
 
 ## Instalación y uso
 
