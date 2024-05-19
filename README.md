@@ -34,6 +34,8 @@ Este repositorio se enfoca en la semántica que se debe aplicar al crear proyect
 
 #### CSS
 
+#### DeepNote
+
 ------
 
 ## Instalación y uso
