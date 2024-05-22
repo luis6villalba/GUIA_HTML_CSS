@@ -20,27 +20,50 @@ body {
 .header {
     width: 100vw;
     height: auto;
+    border: 3px solid rgb(34, 8, 82);
+}
+
+.header-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid rgb(34, 8, 82);
-    background-color: rgb(255, 255, 255);
+}
+
+.header-div {
+    position: relative;
+    overflow: hidden;
+}
+
+.header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header__logo {
     display: flex;
     flex-wrap: wrap;
-    border-radius: 10px;
+    justify-content: center;
 }
 
 .header__img {
-    width: 150px;
+    width: 100px;
     height: auto;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .header-nav {
-    /*margin-bottom: 0.5px;*/
+    margin-bottom: 10px;
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -104,6 +127,7 @@ body {
     min-width: 300px;
     margin-top: 30px;
     margin-bottom: 30px;
+    border-radius: 15px;
 }
 
 .section-two {
