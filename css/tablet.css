@@ -41,6 +41,13 @@
   padding-right: 10px;
 }
 
+.header-content {
+    display: flex;
+    flex-graw: graw;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .item-list {
   font-size: 2rem;
 }
